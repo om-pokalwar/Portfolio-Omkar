@@ -125,6 +125,230 @@ body {
     display: block;
 }
 
+/* Hero Section Background Pattern */
+.container-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  opacity: 0.15;
+}
+
+.container-bg::before {
+  content: "";
+  position: absolute;
+  inset: -145%;
+  rotate: -45deg;
+  background: #000000;
+  background-image: radial-gradient(
+      4px 100px at 0px 235px,
+      rgb(255, 140, 17),
+      #0000
+    ),
+    radial-gradient(4px 100px at 300px 235px, rgb(255, 119, 0), #884e2800),
+    radial-gradient(
+      1.5px 1.5px at 150px 117.5px,
+      rgb(255, 144, 9) 100%,
+      #0000 150%
+    ),
+    radial-gradient(4px 100px at 0px 252px, rgb(156, 14, 137), #0000),
+    radial-gradient(4px 100px at 300px 252px, rgb(23, 41, 206), #0000),
+    radial-gradient(
+      1.5px 1.5px at 150px 126px,
+      rgb(247, 102, 18) 100%,
+      #0000 150%
+    ),
+    radial-gradient(4px 100px at 0px 150px, rgb(249, 121, 16), #0000),
+    radial-gradient(4px 100px at 300px 150px, rgb(255, 128, 18), #0000),
+    radial-gradient(
+      1.5px 1.5px at 150px 75px,
+      rgb(255, 116, 10) 100%,
+      #0000 150%
+    ),
+    radial-gradient(4px 100px at 0px 253px, rgb(249, 137, 17), #0000),
+    radial-gradient(4px 100px at 300px 253px, rgb(248, 107, 14), #0000),
+    radial-gradient(
+      1.5px 1.5px at 150px 126.5px,
+      rgb(252, 129, 14) 100%,
+      #0000 150%
+    ),
+    radial-gradient(4px 100px at 0px 204px, rgb(234, 115, 18), #0000),
+    radial-gradient(4px 100px at 300px 204px, rgb(255, 139, 6), #0000),
+    radial-gradient(
+      1.5px 1.5px at 150px 102px,
+      rgb(255, 128, 9) 100%,
+      #0000 150%
+    ),
+    radial-gradient(4px 100px at 0px 134px, rgb(249, 133, 9), #0000),
+    radial-gradient(4px 100px at 300px 134px, rgb(251, 125, 15), #0000),
+    radial-gradient(
+      1.5px 1.5px at 150px 67px,
+      rgb(255, 146, 13) 100%,
+      #0000 150%
+    ),
+    radial-gradient(4px 100px at 0px 179px, rgb(249, 137, 17), #0000),
+    radial-gradient(4px 100px at 300px 179px, rgb(253, 122, 6), #0000),
+    radial-gradient(
+      1.5px 1.5px at 150px 89.5px,
+      rgb(234, 132, 7) 100%,
+      #0000 150%
+    ),
+    radial-gradient(4px 100px at 0px 299px, rgb(255, 115, 0), #0000),
+    radial-gradient(4px 100px at 300px 299px, rgb(255, 136, 0), #0000),
+    radial-gradient(
+      1.5px 1.5px at 150px 149.5px,
+      rgb(255, 123, 0) 100%,
+      #0000 150%
+    ),
+    radial-gradient(4px 100px at 0px 215px, rgb(255, 145, 0), #0000),
+    radial-gradient(4px 100px at 300px 215px, rgb(255, 132, 0), #0000),
+    radial-gradient(
+      1.5px 1.5px at 150px 107.5px,
+      rgb(255, 136, 0) 100%,
+      #0000 150%
+    ),
+    radial-gradient(4px 100px at 0px 281px, rgb(255, 170, 0), #0000),
+    radial-gradient(4px 100px at 300px 281px, rgb(255, 115, 0), #0000),
+    radial-gradient(
+      1.5px 1.5px at 150px 140.5px,
+      rgb(255, 119, 0) 100%,
+      #0000 150%
+    ),
+    radial-gradient(4px 100px at 0px 158px, rgb(255, 123, 0), #0000),
+    radial-gradient(4px 100px at 300px 158px, rgb(255, 132, 0), #0000),
+    radial-gradient(
+      1.5px 1.5px at 150px 79px,
+      rgb(255, 149, 0) 100%,
+      #0000 150%
+    ),
+    radial-gradient(4px 100px at 0px 210px, rgb(255, 123, 0), #0000),
+    radial-gradient(4px 100px at 300px 210px, rgb(255, 162, 0), #0000),
+    radial-gradient(
+      1.5px 1.5px at 150px 105px,
+      rgb(255, 136, 0) 100%,
+      #0000 150%
+    );
+  background-size:
+    300px 235px,
+    300px 235px,
+    300px 235px,
+    300px 252px,
+    300px 252px,
+    300px 252px,
+    300px 150px,
+    300px 150px,
+    300px 150px,
+    300px 253px,
+    300px 253px,
+    300px 253px,
+    300px 204px,
+    300px 204px,
+    300px 204px,
+    300px 134px,
+    300px 134px,
+    300px 134px,
+    300px 179px,
+    300px 179px,
+    300px 179px,
+    300px 299px,
+    300px 299px,
+    300px 299px,
+    300px 215px,
+    300px 215px,
+    300px 215px,
+    300px 281px,
+    300px 281px,
+    300px 281px,
+    300px 158px,
+    300px 158px,
+    300px 158px,
+    300px 210px,
+    300px 210px,
+    300px 210px;
+  animation: hi 150s linear infinite;
+}
+
+@keyframes hi {
+  0% {
+    background-position:
+      0px 220px,
+      3px 220px,
+      151.5px 337.5px,
+      25px 24px,
+      28px 24px,
+      176.5px 150px,
+      50px 16px,
+      53px 16px,
+      201.5px 91px,
+      75px 224px,
+      78px 224px,
+      226.5px 350.5px,
+      100px 19px,
+      103px 19px,
+      251.5px 121px,
+      125px 120px,
+      128px 120px,
+      276.5px 187px,
+      150px 31px,
+      153px 31px,
+      301.5px 120.5px,
+      175px 235px,
+      178px 235px,
+      326.5px 384.5px,
+      200px 121px,
+      203px 121px,
+      351.5px 228.5px,
+      225px 224px,
+      228px 224px,
+      376.5px 364.5px,
+      250px 26px,
+      253px 26px,
+      401.5px 105px,
+      275px 75px,
+      278px 75px,
+      426.5px 180px;
+  }
+  to {
+    background-position:
+      0px 6800px,
+      3px 6800px,
+      151.5px 6917.5px,
+      25px 13632px,
+      28px 13632px,
+      176.5px 13758px,
+      50px 5416px,
+      53px 5416px,
+      201.5px 5491px,
+      75px 17175px,
+      78px 17175px,
+      226.5px 17301.5px,
+      100px 5119px,
+      103px 5119px,
+      251.5px 5221px,
+      125px 8428px,
+      128px 8428px,
+      276.5px 8495px,
+      150px 9876px,
+      153px 9876px,
+      301.5px 9965.5px,
+      175px 13391px,
+      178px 13391px,
+      326.5px 13540.5px,
+      200px 14741px,
+      203px 14741px,
+      351.5px 14848.5px,
+      225px 18770px,
+      228px 18770px,
+      376.5px 18910.5px,
+      250px 5082px,
+      253px 5082px,
+      401.5px 5161px,
+      275px 6375px,
+      278px 6375px,
+      426.5px 6480px;
+  }
+}
+
 /* Hero Section */
 .hero {
     min-height: 100vh;
@@ -132,16 +356,31 @@ body {
     align-items: center;
     padding: 6rem 0 3rem;
     background: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+    position: relative;
+    overflow: hidden;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(10, 10, 10, 0.7);
+    z-index: 0;
 }
 
 .hero-container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 1.25rem;
+    padding: 0 1rem;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 3.5rem;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 2rem;
     align-items: center;
+    position: relative;
+    z-index: 1;
 }
 
 .hero-title {
@@ -179,65 +418,85 @@ body {
     text-decoration: none;
 }
 
-.hero-image {
+/* Developer Animation */
+.developer-animation {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100%;
+    position: relative;
 }
 
-.image-placeholder {
-    width: 320px;
-    height: 320px;
-    background: var(--bg-glass);
-    border: 2px dashed var(--border-color);
-    border-radius: 50%;
+.code-animation {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+    background: rgba(10, 10, 10, 0.7);
+    border-radius: 12px;
+    border: 1px solid rgba(163, 112, 240, 0.3);
+    overflow: hidden;
+    padding: 1.5rem;
+    font-family: 'Courier New', monospace;
+    color: var(--primary-color);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.code-line {
     display: flex;
     align-items: center;
-    justify-content: center;
+    margin-bottom: 0.8rem;
+    opacity: 0;
+    transform: translateY(10px);
+    animation: fadeInLine 0.5s forwards;
+}
+
+.code-line:nth-child(1) { animation-delay: 0.5s; }
+.code-line:nth-child(2) { animation-delay: 1s; }
+.code-line:nth-child(3) { animation-delay: 1.5s; }
+.code-line:nth-child(4) { animation-delay: 2s; }
+.code-line:nth-child(5) { animation-delay: 2.5s; }
+.code-line:nth-child(6) { animation-delay: 3s; }
+.code-line:nth-child(7) { animation-delay: 3.5s; }
+.code-line:nth-child(8) { animation-delay: 4s; }
+
+.line-number {
     color: var(--text-secondary);
-    font-size: 1.15rem;
-    backdrop-filter: var(--glass-blur);
+    margin-right: 1rem;
+    font-size: 0.9rem;
+    min-width: 20px;
 }
 
-/* HERO IMAGE NEW STYLING */
-.hero-image {
-  width: 350px;
-  height: 350px;
-  position: relative;
-  overflow: hidden;
-  border-radius: 20px;
+.code-content {
+    color: var(--text-primary);
 }
 
-.pattern-bg {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  background: repeating-linear-gradient(
-    135deg,
-    #232526 0px,
-    #232526 60px,
-    #23252699 70px,
-    #414345 130px
-  );
+.keyword {
+    color: #ff6b6b;
 }
 
-.cube-svg {
-  position: absolute;
-  width: 200%;
-  height: 200%;
-  left: -30%;
-  top: -20%;
-  opacity: 0.6;
-  animation: cubeMove 18s linear infinite alternate;
+.string {
+    color: #51cf66;
 }
 
-@keyframes cubeMove {
-  from {
-    transform: translateY(0) scale(1);
-  }
-  to {
-    transform: translateY(-20%) scale(1.02) rotate(1deg);
-  }
+.comment {
+    color: var(--text-secondary);
+    font-style: italic;
+}
+
+.function {
+    color: #339af0;
+}
+
+.variable {
+    color: #cc5de8;
+}
+
+@keyframes fadeInLine {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 /* Sections Common Styles */
@@ -610,8 +869,7 @@ section {
     font-size: 1.1rem;
 }
 
-/* FIXED: Social Links - Clean, Simple Buttons */
-/* New Social Buttons */
+/* Social Links */
 .social-links {
     display: flex;
     gap: 1rem;
@@ -639,7 +897,7 @@ section {
 
 .social-btn:hover {
     width: 11rem;
-    background: #0369a1; /* sky-600 equivalent */
+    background: #0369a1;
     border-radius: 1.5rem;
 }
 
@@ -688,7 +946,7 @@ section {
 
 /* LinkedIn Button Specific */
 .social-btn.linkedin-btn {
-    background: #0077b5; /* LinkedIn blue */
+    background: #0077b5;
 }
 
 .social-btn.linkedin-btn::before {
@@ -696,7 +954,7 @@ section {
 }
 
 .social-btn.linkedin-btn:hover {
-    background: #00669c; /* Darker LinkedIn blue */
+    background: #00669c;
 }
 
 .social-btn.linkedin-btn:hover::before {
@@ -705,7 +963,7 @@ section {
 
 /* GitHub Button Specific */
 .social-btn.github-btn {
-    background: #333333; /* GitHub dark gray */
+    background: #333333;
 }
 
 .social-btn.github-btn::before {
@@ -713,73 +971,12 @@ section {
 }
 
 .social-btn.github-btn:hover {
-    background: #24292e; /* GitHub hover color */
+    background: #24292e;
 }
 
 .social-btn.github-btn:hover::before {
     background: #24292e;
 }
-
-/* Responsive Design for Social Buttons */
-@media (max-width: 768px) {
-    .social-links {
-        justify-content: center;
-    }
-    
-    .social-btn {
-        width: 2.5rem;
-        height: 2.5rem;
-    }
-    
-    .social-btn:hover {
-        width: 9rem;
-    }
-    
-    .social-btn::before {
-        left: 1.5rem;
-    }
-    
-    .social-btn:hover::before {
-        left: 8rem;
-    }
-    
-    .social-icon {
-        width: 1.5rem;
-        height: 1.5rem;
-    }
-}
-
-
-/* GitHub Repo Button */
-.github-repo-btn {
-    background: rgba(255, 255, 255, 0.1);
-    color: var(--text-primary);
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    padding: 0.7rem 1.5rem;
-    border-radius: 8px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    font-weight: 500;
-    transition: all 0.3s ease;
-    margin-top: 1.5rem;
-    backdrop-filter: var(--glass-blur);
-    width: 100%;
-    justify-content: center;
-}
-
-.github-repo-btn:hover {
-    background: rgba(255, 255, 255, 0.2);
-    border-color: var(--primary-color);
-    transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(163, 112, 240, 0.3);
-}
-
-.github-repo-btn svg {
-    fill: currentColor;
-}
-
 
 /* Contact Form */
 .contact-form {
@@ -1068,9 +1265,14 @@ section {
         gap: 1rem;
     }
     
-    .image-placeholder {
-        width: 260px;
-        height: 260px;
+    .developer-animation {
+        order: -1;
+        margin-bottom: 2rem;
+    }
+    
+    .code-animation {
+        height: 250px;
+        max-width: 100%;
         margin: 0 auto;
     }
 
@@ -1229,6 +1431,17 @@ section {
         width: 20px;
         height: 20px;
     }
+    
+    .code-animation {
+        height: 220px;
+        padding: 1rem;
+        font-size: 0.9rem;
+    }
+    
+    .line-number {
+        font-size: 0.8rem;
+        margin-right: 0.5rem;
+    }
 }
 
 /* Touch device optimizations */
@@ -1256,6 +1469,10 @@ section {
     
     .slice:hover {
         transform: none;
+    }
+    
+    .code-animation {
+        animation: none;
     }
 }
 
@@ -1286,6 +1503,14 @@ section {
     .hero-buttons,
     .social-links,
     .contact-form {
+        display: none;
+    }
+    
+    .developer-animation {
+        display: none;
+    }
+    
+    .container-bg {
         display: none;
     }
 }
